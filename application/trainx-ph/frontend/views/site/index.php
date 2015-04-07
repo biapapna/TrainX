@@ -5,9 +5,10 @@ $this->title = 'TrainX';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="index-body">
-    <div class="title">
-        <img src="images/logo_trans.png"></img></br>
-        <span class="byline">"Track.  Share. Make your choice."</span> 
+    <div class="banner-top">
+        <div class="banner-container">
+            arianne
+        </div> 
     </div>
     <div class="announcement">
         <h2>Announcement </h2>

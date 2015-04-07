@@ -5,15 +5,16 @@ body {
 
 body {
   height: 100%;
-  background: url(../images/bg.jpg) no-repeat center center fixed;
-  background-size: cover;
+  /*background: url(../images/bg.jpg) no-repeat center center fixed;*/
+  background-color: #fff;
+  /*background-size: cover;*/
 
 }
 
 .container-white{
   background-color: #fff;
-  border-radius: 20px;
-  margin-bottom: 20px;
+  /* border-radius: 20px;
+  margin-bottom: 20px; */
 }
 
 .aboutImage{
@@ -151,6 +152,13 @@ a.desc:after {
   color: #FFF;
 }
 
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 5px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
 .menu-modify{
     display: block;
     padding: 0em 1.5em;
@@ -529,4 +537,15 @@ form .stars span {
 }
 .center{
   text-align: center;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@ ADVERTISEMENT @@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+.banner-top {
+  border: 1px solid red;
+}
+
+.banner-container {
+  border: 1px solid blue;
+  text-align: center;
+  padding: 30px 30px 30px 30px; 
 }

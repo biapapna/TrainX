@@ -4,7 +4,7 @@ use yii\bootstrap\NavBar;
 ?>
 <?php
     NavBar::begin([
-        'brandLabel' => 'TrainX',
+        'brandLabel' => '<img src="images/mainlogo.png">', //'TrainX',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse',
