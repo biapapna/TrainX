@@ -5,7 +5,7 @@ body {
 
 body {
   height: 100%;
-  background: url(../images/bg.jpg) no-repeat center center fixed;
+  background: url(../images/bg.jpg) no-repeat center center fixed;  
   background-color: #fff;
   background-size: cover;
 
@@ -575,4 +575,99 @@ form .stars span {
 
 .b1{
   margin-bottom: 30px;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@ BY PRETTY :) @@@@@@@@@@@@@@@@@@@@@@@ */
+.main-hdr {
+  float: left;
+  text-align: left;
+}
+
+.dropdown {
+  position: relative;
+}
+.dropdown-toggle:focus {
+  outline: 0;
+}
+.dropdown-menu_ {
+  /*position: absolute;*/
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: block;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  margin-right: 5px;
+}
+
+.station-hdr{
+  float: left;
+}
+.station-menu{
+  float: right;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.side-right{
+  position: relative;
+}
+.star-hdr {
+  margin-top: 2px;
+  font-style: normal;
+  text-align: left;
+}
+.msg-content{
+  font-size: 20px;
+  text-align: left;
+  margin-left: 30px;
+}
+.user-response{
+  margin-top: 20px;
+  margin-left: 30px;
+  text-align: left;
+}
+.user-upload{
+  border: 1px solid black;
+  width:370px;
+  height: 240px;
+}
+.emoji{
+  width: 43px;
+  height: 40px;
+}
+.emojihappy{
+  width: 150px;
+  height: 43px;
+}
+.emojifear{
+  width: 90px;
+  height: 40px;
+}
+.emojilate{
+  width: 130px;
+  height: 48px;
+}
+.emojifunny{
+  width: 80px;
+  height: 40px;
+}
+
+.about{
+  width: 60%;
+  vertical-align: middle;
+  text-align: center;
+  margin-left: 20%;
 }
