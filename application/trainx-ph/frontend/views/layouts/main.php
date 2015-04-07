@@ -17,6 +17,7 @@ AppAsset::register($this);
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
+    <link rel="icon" type="image/ico" href="images/icon.ico"> 
     <?php $this->head() ?>
 </head>
 
