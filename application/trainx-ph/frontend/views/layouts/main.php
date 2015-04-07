@@ -24,28 +24,23 @@ AppAsset::register($this);
     <?php $this->beginBody() ?>
 
       <div class="wrap">        
-        <div class="navbar-modify">
+        <div class="navbar-modify navbar-margin-bottom">
             <?php include('navbar.php'); ?>
         </div>
-                <div class="container container-white">
-                                    <!--<?= Breadcrumbs::widget([
-                                        'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-                                    ]) ?>
-                                    <?= Alert::widget() ?>-->
-                    <div>
-                        <?= $content ?>
-                    </div>
-                </div>
-
+        <div class="container container-white">
+                            <!--<?= Breadcrumbs::widget([
+                                'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+                            ]) ?>
+                            <?= Alert::widget() ?>-->
+            
+                    <?= $content ?>
+            </div>
     </div>
 
 
-    
+    <?php include('footer.php'); ?>
 
     <?php $this->endBody() ?>
 </body>
-            <div>
-                <?php include('footer.php'); ?>
-            </div>
 </html>
 <?php $this->endPage() ?>
