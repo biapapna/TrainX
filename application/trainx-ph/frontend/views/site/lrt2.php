@@ -10,7 +10,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="margin-1">
     <div>
         <div class="t1">
-            <img class="100-wh" src="images/t3.jpg"></img></br>
+            <img class="100-wh" src="images/t2.jpg"></img></br>
         </div> 
     </div>
     <br />
@@ -285,7 +285,9 @@ $this->params['breadcrumbs'][] = $this->title;
             <br /><br/>
 
             <div class="s1">
-                <img src="images/s5.gif"></img></br>
+                <img style="width: 150px; height: 150px" src="images/s2.png"></img></br>
+                <img style="width: 150px; height: 150px" src="images/s3.png"></img></br>
+                <img style="width: 150px; height: 150px" src="images/s4.png"></img></br>
             </div>
 
             <div class="revolver">

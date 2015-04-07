@@ -14,7 +14,6 @@ use yii\bootstrap\NavBar;
         //$menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
         $menuItems = [
             ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'About', 'url' => ['/site/about']],
             ['label' => 'Contact', 'url' => ['/site/contact']],
             ['label' => 'Sign Up', 'url' => ['/site/signup']],
         ];
@@ -22,7 +21,6 @@ use yii\bootstrap\NavBar;
     } else {
         $menuItems = [
             ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'About', 'url' => ['/site/about']],
             ['label' => 'Contact', 'url' => ['/site/contact']],
             ['label' => 'Trains', 'items' => [
                 ['label' => 'LRT1', 'url' => ['/site/lrt1']],
